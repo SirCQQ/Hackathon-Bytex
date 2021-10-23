@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "name": "project 1",
+            "logo": "https://www.designhill.com/resize_img.php?atyp=page_file&pth=ft_ca_ct||259||contestfile_1&flp=1626068668-181804171260ebd6bcf116b5-27635942.jpg",
+            "description": "project1 description",
+            "team": [
+                {
+                    "name": "person1",
+                    "role": "Team Lead",
+                    "photo": "https://image.winudf.com/v2/image1/Y29tLmJ1bnR5YXBweC5hdnRhcm1ha2VyX3NjcmVlbl8wXzE1NjM0OTUwODFfMDg3/screen-0.jpg?fakeurl=1&type=.jpg"
+                },
+                {
+                    "name": "person2",
+                    "role": "Backend Java",
+                    "photo": "https://image.winudf.com/v2/image1/Y29tLmJ1bnR5YXBweC5hdnRhcm1ha2VyX3NjcmVlbl8wXzE1NjM0OTUwODFfMDg3/screen-0.jpg?fakeurl=1&type=.jpg"
+                },
+                {
+                    "name": "person3",
+                    "role": "Frontend React",
+                    "photo": "https://image.winudf.com/v2/image1/Y29tLmJ1bnR5YXBweC5hdnRhcm1ha2VyX3NjcmVlbl8wXzE1NjM0OTUwODFfMDg3/screen-0.jpg?fakeurl=1&type=.jpg"
+                }
+            ],
+            "stack": ["Java, Javascript, React, MySql"],
+            "openPositions":[
+                {
+                    "positionName": "Backedn Developer",
+                    "positionLevel": "Junior",
+                    "description": "bla bla"
+                }
+            ]
+        } 
+    ]
+}
