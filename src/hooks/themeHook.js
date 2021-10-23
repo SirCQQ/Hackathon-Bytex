@@ -1,12 +1,8 @@
-import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { COLOR_SCHEMAS } from '../data/colorSchema'
 const useTheme = () => {
   const userTheme = useSelector(state => state.user.theme)
-  
-  // const [theme, setTheme] = useState({})
-  // useEffect(() => {
-    // setTheme(
+
     return   {
       palette: {
         primary: {
@@ -20,12 +16,6 @@ const useTheme = () => {
 
       },
     }
-    // )
-  //   console.log('update')
-  // // }, [])
-  // // console.log(theme,userTheme)
-  
-  // return theme
 }
 
 

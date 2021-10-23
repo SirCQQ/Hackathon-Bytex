@@ -3,11 +3,11 @@ import { createSlice } from '@reduxjs/toolkit'
 export const user = createSlice({
   name: 'user',
   initialState: {
-    theme:"ravenclaw",
-    name:"",
+    theme:"hufflepuff",
+    name:"Cristi",
     badges:[],
     appliedJobs:[],
-
+    userId:'123'
   },
   reducers: {
     changeTheme: (state,action)=>{
