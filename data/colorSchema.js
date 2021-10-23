@@ -1,6 +1,7 @@
 const COLOR_SCHEMAS= {
   basic:{
-
+    primary:"#F20038",
+    secondary:"#222327"
   },
   slytherin:{
     primary:"#1a472a",
