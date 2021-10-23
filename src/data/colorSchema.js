@@ -33,5 +33,3 @@ const COLOR_SCHEMAS= {
 }
 
 export {COLOR_SCHEMAS}
-
-//     https://learnui.design/tools/accessible-color-generator.html
