@@ -1,7 +1,11 @@
 const reactQuiz = {
-  "id": 1,
+  "id": 3,
   "quizTitle": "React Quiz",
-  "quizSynopsis": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim",
+  "quizPicture": {
+    "src": "https://hackergeek.ro/storage/app/uploads/public/5e8/ce0/aa8/5e8ce0aa8a629440028347.jpg",
+    "alt": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+  },
+  "quizSynopsis": "This quiz is exposing 20 questions that go through all the key-concepts of the framework that any React developer should be familiar with. Topics: JSX, components, props, lifecycle & state, events.",
   "questions": [
     {
       "question": "How can you access the state of a component from inside of a member function?",
