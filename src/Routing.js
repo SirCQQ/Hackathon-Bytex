@@ -4,12 +4,12 @@ import {
   Route
 } from "react-router-dom"
 import { createTheme, ThemeProvider } from "@mui/material/styles"
-import { useSelector, useDispatch } from "react-redux"
+import { useSelector } from "react-redux"
 import { COLOR_SCHEMAS } from './data/colorSchema'
 import Navigation from "./components/Navigation"
 import Homepage from './components/Homepage'
 export default function Routing() {
-  const dispatch = useDispatch()
+  // const dispatch = useDispatch()
   const userTheme = useSelector(state => state.user.theme)
   let theme = createTheme({
     palette: {

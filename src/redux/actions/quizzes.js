@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 export const user = createSlice({
-  name: 'quizzes',
+  name: 'quiz',
   initialState: {
     id: '',
     quizTitle: '',
@@ -11,18 +11,8 @@ export const user = createSlice({
     
   },
   reducers: {
-    changeTheme: (state, action) => {
-      state.theme = action.payload
-    },
-    addBadge: (state, action) => {
-      state.badges.push(action.payload)
-    },
-    addJobApplied: (state, action) => {
-      state.appliedJobs.push(action.payload)
-    },
-    removeJobApplied: (state, action) => {
-      let indexOfJob = state.appliedJobs.indexOf(action.payload)
-      state.appliedJobs.splice(indexOfJob, 1)
+    setQuizz:(state,action)=>{
+      state=action.payload  
     }
   },
 })

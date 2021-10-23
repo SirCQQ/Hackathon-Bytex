@@ -13,7 +13,6 @@
   padding:0px 25px;
 }
 
-
 .company{
   font-size: 28px ;
   font-weight: bold;
@@ -22,24 +21,64 @@
 .user-name{
   font-size: 24px;
 }
-.quizzes{
-  display: flex;
+.card-list{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
 
 }
 
-.quizz-card{
-  height:300px;
-  margin:20px;
-  padding:0px 20px;
+.card{
+  position: relative;
+  /* height:300px; */
+  margin:20px auto;
+  padding:0px 0px;
   max-width: 200px;
+  border:2px solid;
+  border-radius: 25px;
+  min-height:300px;
+  height: fit-content;
   flex-basis: 200px;
+  padding: 10px 5px ; 
+  overflow: hidden;
+  padding: 10px 10px 10px 10px ;
 }
 
-.quizz-card>img{
-  /* height:20%; */
-  width:200px;
+.card>img{
+  height:200px;
+  width:196px;
 }
 
 .badge{
-  border-radius: 25%;
+  border-radius: 50px;
+  padding:2px 5px;
+  margin:4px 4px;
+}
+
+
+.job-aplication{
+  margin:20px 50px;
+}
+
+.tags{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr) );
+  text-align: center;
+
+}
+.projects{
+  height: 400px;
+}
+
+
+.quizz,.projects{
+  padding:0px 0px 10px 0px;
+}
+
+
+.title{
+  text-align: center;
 }

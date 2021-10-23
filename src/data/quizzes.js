@@ -30,7 +30,7 @@ const QUIZZES = [
     id: '4',
     quizTitle: 'CSS',
     img: {
-      src: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
+      src: 'https://cdn.cdnlogo.com/logos/c/18/css.svg',
       alt: ''
     },
     roles: ['Frontend']
@@ -39,7 +39,7 @@ const QUIZZES = [
     id: '5',
     quizTitle: 'Javascript',
     img: {
-      src: 'https://fr.wikipedia.org/wiki/JavaScript#/media/Fichier:Unofficial_JavaScript_logo_2.svg',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg',
       alt: ''
     },
     roles: ['Frontend', 'Backend']

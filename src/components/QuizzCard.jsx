@@ -1,17 +1,16 @@
 import React from 'react'
 import Badge from './Badge'
-import {Card} from '@mui/material'
+import useTheme from "../hooks/themeHook";
 export default function QuizzCard(props) {
+  const {palette:{primary}}= useTheme()
   const {quizTitle,img:{src,alt},roles} = props
   return (
-    <Card className="quizz-card">
+    <div className="card quizz" style={{borderColor:primary.main}}>
       <img src={src} alt={alt} />
-      <div className="quiz-info">
         <div className="title">{quizTitle}</div>
-        <div className="roles">
+        <div className="tags">
           {roles.map(e=>{return <Badge text={e} />})}
         </div>
-      </div>
-    </Card>
+    </div>
   )
 }

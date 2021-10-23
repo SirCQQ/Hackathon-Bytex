@@ -1,6 +1,5 @@
 import React from 'react'
 import useTheme from '../hooks/themeHook'
-import {Link} from 'react-router-dom'
 import {useSelector}from 'react-redux'
 export default function Navigation() {
   const {palette:{primary}}= useTheme()
