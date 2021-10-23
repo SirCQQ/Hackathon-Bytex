@@ -1,33 +1,48 @@
-const QUIZZES=[
+const QUIZZES = [
   {
     id: '1',
     quizTitle: 'React',
-    quizPicture: 'https://en.wikipedia.org/wiki/React_(JavaScript_library)#/media/File:React-icon.svg',
-    role:['Frontend']
+    img: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
+      alt: ''
+    },
+    roles: ['Frontend']
   },
   {
     id: '2',
     quizTitle: 'Vue',
-    quizPicture: 'https://avatars.githubusercontent.com/u/6128107?s=200&v=4',
-    role:['Frontend']
+    img: {
+      src: 'https://avatars.githubusercontent.com/u/6128107?s=200&v=4',
+      alt: ''
+    },
+    roles: ['Frontend']
   },
   {
     id: '3',
     quizTitle: 'Angular',
-    quizPicture: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
-    role:['Frontend']
+    img: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
+      alt: ''
+    },
+    roles: ['Frontend']
   },
   {
     id: '4',
     quizTitle: 'CSS',
-    quizPicture: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
-    role:['Frontend']
+    img: {
+      src: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',
+      alt: ''
+    },
+    roles: ['Frontend']
   },
   {
     id: '5',
     quizTitle: 'Javascript',
-    quizPicture: 'https://fr.wikipedia.org/wiki/JavaScript#/media/Fichier:Unofficial_JavaScript_logo_2.svg',
-    role:['Frontend','Backend']
+    img: {
+      src: 'https://fr.wikipedia.org/wiki/JavaScript#/media/Fichier:Unofficial_JavaScript_logo_2.svg',
+      alt: ''
+    },
+    roles: ['Frontend', 'Backend']
   },
 ]
 
@@ -35,4 +50,4 @@ const QUIZZES=[
 
 
 
-export {QUIZZES} 
+export { QUIZZES }

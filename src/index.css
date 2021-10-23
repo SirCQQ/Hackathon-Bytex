@@ -22,3 +22,24 @@
 .user-name{
   font-size: 24px;
 }
+.quizzes{
+  display: flex;
+
+}
+
+.quizz-card{
+  height:300px;
+  margin:20px;
+  padding:0px 20px;
+  max-width: 200px;
+  flex-basis: 200px;
+}
+
+.quizz-card>img{
+  /* height:20%; */
+  width:200px;
+}
+
+.badge{
+  border-radius: 25%;
+}
