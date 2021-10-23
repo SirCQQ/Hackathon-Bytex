@@ -91,8 +91,12 @@ const companyProjects = [
 		"stack": ["Python", "Flask", "C++", "AWS", "Postgres", "Java"],
 		"openPositions":[
 			{
-				"name": "Backend Java Developer",
-				"level": "Sennior",
+				"name": "Backend C++ Developer",
+				"level": "Senior",
+			},
+			{
+				"name": "Backend Python Developer",
+				"level": "Mid",
 			},
 		]
 	},
@@ -101,12 +105,62 @@ const companyProjects = [
 		"name": "Advanced employee management system",
 		"logo": "https://i.ytimg.com/vi/xWDkIK333T4/maxresdefault.jpg",
 		"description": "Usually, large companies and organizations have a vast army of human resources working under them. In such scenarios where there’s a significant number of human employees to manage, it becomes challenging to supervise and manage the activities of the human resources efficiently. Such companies/organizations need an advanced employee management system that can handle everything related to the company’s human resources. This project aims to build an employee management system that consolidates all the relevant information on a company’s human resources. It has two major components – Admin and Employee. The Admin is in charge of the company information, leave management and payroll, and can also add and tweak employee details. Likewise, employees can use the system to check their leave status, view salary details, yearly holiday list, and also for voicing grievances or resigning. This can be one of the final year project ideas for IT students. ",
+		"team": [
+			{
+				"name": "Kylan Coombes",
+				"role": "Team Lead",
+			},
+			{
+				"name": "Ellise Marsden",
+				"role": "Backend Python Developer",
+			},
+			{
+				"name": "Sioned Power",
+				"role": "Backend C++ Developer",
+			},
+			{
+				"name": "Robson Dougherty",
+				"role": "Devops GCP Engineer",
+			}
+		],
+		"stack": ["Python", "Flask", "C++", "GCP", "Postgres", "Java"],
+		"openPositions":[
+			{
+				"name": "Backend C++ Developer",
+				"level": "Sennior",
+			},
+		]
 	},
 	{
 		"id": 6,
 		"name": "Fingerprint voting system",
 		"logo": "https://www.honestballot.com/wp-content/uploads/2019/11/38646453_S.jpg",
 		"description": "In this project, you will develop a fingerprint-based voting application that can recognize users based on their fingerprint patterns. Since fingerprint authentication is unique for each person, the system can quickly identify the voters using their fingerprints. Naturally, a voter can vote for a candidate only once. The Admin adds all the names and photos of the candidates nominated for the election. The Admin then authenticates users by verifying their identity proof, and after verification, the voter is registered in the system. Furthermore, the Admin even enters the data when the election will end, after which the system will automatically delete the names and photos of the candidates and voters. The users can log in to the system via the unique user ID and password given by the Admin and then use their fingerprints to vote for their preferred candidate. Once the election is over, and the votes are counted, Both the Admin and users can view the election result using the election ID.",
+		"team": [
+			{
+					"name": "Angelika Mcgrath",
+					"role": "Team Lead Developer",
+			},
+			{
+					"name": "Griffin English",
+					"role": "Backend Java Developer",
+			},
+			{
+					"name": "Olly Ray",
+					"role": "Frontend Angular Developer",
+			}
+		],
+		"stack": ["Java", "Spring Boot", "Javascript", "React", "MySql"],
+		"openPositions":[
+			{
+				"name": "Frontend Angular Developer",
+				"level": "Senior",
+			},
+			{
+				"name": "Backend Java Developer",
+				"level": "Junior",
+			}
+		]
 	},
 	{
 		"id": 9,
