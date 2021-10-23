@@ -1,7 +1,9 @@
 const COLOR_SCHEMAS= {
-  basic:{
+  default:{
     primary:"#F20038",
-    secondary:"#222327"
+    secondary:"#222327",
+    primaryText:"#ffffff",
+    secondaryText:"#ffffff"
   },
   slytherin:{
     primary:"#1a472a",
@@ -15,7 +17,7 @@ const COLOR_SCHEMAS= {
     primaryText:"#ffffff",
     secondaryText:"#575757",
   },
-  ECB939:{
+  hufflepuff:{
     primary:"#ECB939",
     secondary:"#726255",
     primaryText: "#4f4f4f",
@@ -24,11 +26,12 @@ const COLOR_SCHEMAS= {
   ravenclaw:{
     primary:"#0e1a40",
     secondary:"#946b2d",
-    primaryText:"#2c2c2c",
+    primaryText:"#ffffff",
     secondaryText:"#ffffff"
-    
   },
 
 }
+
+export {COLOR_SCHEMAS}
 
 //     https://learnui.design/tools/accessible-color-generator.html
