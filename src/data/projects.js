@@ -5,7 +5,8 @@ const companyProjects = [
 		"logo": {
 			"src": "https://digipedia.ro/wp-content/uploads/2017/08/ANDROID.png",
 			"alt": ""
-		}, "description": "This project is exclusively designed to simplify the tracking and monitoring of day-to-day activities of the busy modern life. We are so busy in our daily lives right now that it becomes impossible to keep track of our daily events, meetings, and appointments. To address this issue, this project focuses on developing a Weekly Task Alerting System for Android devices that can alert users of the tasks/appointments that are scheduled for each day in a week. The project is primarily a reminder app powered by an AI chatbot that reminds users of all the tasks that are due daily. Users can use this application to set goals and achieve them, thereby increasing productivity and simplifying their lives.",
+		},
+		"description": "This project is exclusively designed to simplify the tracking and monitoring of day-to-day activities of the busy modern life. We are so busy in our daily lives right now that it becomes impossible to keep track of our daily events, meetings, and appointments. To address this issue, this project focuses on developing a Weekly Task Alerting System for Android devices that can alert users of the tasks/appointments that are scheduled for each day in a week. The project is primarily a reminder app powered by an AI chatbot that reminds users of all the tasks that are due daily. Users can use this application to set goals and achieve them, thereby increasing productivity and simplifying their lives.",
 		"team": [
 			{
 				"name": "Prisha Clay",
@@ -27,13 +28,17 @@ const companyProjects = [
 				"id": "1",
 				"name": "Frontend React Developer",
 				"level": "Junior",
-				"tags": ["React", "Frontend", "Junior"]
+				"tags": ["React", "Frontend", "Junior"],
+				"projectName": "Android task monitoring",
+				"projectId": "1"
 			},
 			{
 				"id": "2",
 				"name": "Backend Java Developer",
 				"level": "Junior",
-				"tags": ["Java", "Backend", "Junior"]
+				"tags": ["Java", "Backend", "Junior"],
+				"projectName": "Android task monitoring",
+				"projectId": "1"
 			}
 		],
 		"applicants": [{
@@ -70,19 +75,25 @@ const companyProjects = [
 				"id": "3",
 				"name": "Frontend Vue Developer",
 				"level": "Junior",
-				"tags": ["Vue", "Frontend", "Junior"]
+				"tags": ["Vue", "Frontend", "Junior"],
+				"projectName": "Sentiment analysis for product rating",
+				"projectId": "2"
 			},
 			{
 				"id": "4",
 				"name": "Backend .NET Developer",
 				"level": "Senior",
-				"tags": [".NET", "Backend", "Senior"]
+				"tags": [".NET", "Backend", "Senior"],
+				"projectName": "Sentiment analysis for product rating",
+				"projectId": "2"
 			},
 			{
 				"id": "5",
 				"name": "DevOps Azure Engineer",
 				"level": "Mid",
-				"tags": ["Azure", "DevOps", "Mid"]
+				"tags": ["Azure", "DevOps", "Mid"],
+				"projectName": "Sentiment analysis for product rating",
+				"projectId": "2"
 			}
 		],
 		"applicants": [{
@@ -124,13 +135,17 @@ const companyProjects = [
 				"id": "6",
 				"name": "Backend C++ Developer",
 				"level": "Senior",
-				"tags": ["C++", "Backend", "Senior"]
+				"tags": ["C++", "Backend", "Senior"],
+				"projectName": 'Fingerprint-based ATM system',
+				"projectId": '3',
 			},
 			{
 				"id": "7",
 				"name": "Backend Python Developer",
 				"level": "Mid",
-				"tags": ["Python", "Backend", "Mid"]
+				"tags": ["Python", "Backend", "Mid"],
+				"projectName": 'Fingerprint-based ATM system',
+				"projectId": '3',
 			},
 		],
 		"applicants": [{
@@ -145,7 +160,7 @@ const companyProjects = [
 		"id": 4,
 		"name": "Advanced employee management system",
 		"logo": {
-			"src": "https://i.ytimg.com/vi/xWDkIK333T4/maxresdefault.jpg",
+			"src": "https://www.communardo.com/wp-content/uploads/2019/09/atlassian-confluence.png",
 			"alt": ""
 		}, "description": "Usually, large companies and organizations have a vast army of human resources working under them. In such scenarios where there’s a significant number of human employees to manage, it becomes challenging to supervise and manage the activities of the human resources efficiently. Such companies/organizations need an advanced employee management system that can handle everything related to the company’s human resources. This project aims to build an employee management system that consolidates all the relevant information on a company’s human resources. It has two major components – Admin and Employee. The Admin is in charge of the company information, leave management and payroll, and can also add and tweak employee details. Likewise, employees can use the system to check their leave status, view salary details, yearly holiday list, and also for voicing grievances or resigning. This can be one of the final year project ideas for IT students. ",
 		"team": [
@@ -172,7 +187,9 @@ const companyProjects = [
 				"id": "8",
 				"name": "Backend C++ Developer",
 				"level": "Senior",
-				"tags": ["C++", "Backend", "Senior"]
+				"tags": ["C++", "Backend", "Senior"],
+				"projectName": "Advanced employee management system",
+				"projectId": "4"
 			},
 		],
 		"applicants": [{

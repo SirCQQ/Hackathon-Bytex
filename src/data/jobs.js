@@ -5,14 +5,10 @@ let JOBS = []
 companyProjects.forEach(proj => {
   // console.log(proj.openPositions)
   if (proj.openPositions) {
-
-    JOBS = [...JOBS, ...proj.openPositions.map(e => {
-      return {
-        ...e, 
-        projectId: proj.id, 
-        projectName: proj.name 
-      }
-    })]
+    let newJobs=proj.openPositions.map(e => {
+      return e
+    })
+    JOBS = [...JOBS,...newJobs ]
   }
 })
 

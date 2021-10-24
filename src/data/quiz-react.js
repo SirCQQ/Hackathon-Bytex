@@ -1,10 +1,11 @@
 const reactQuiz = {
-  "id": 3,
+  "id": 1,
   "quizTitle": "React Quiz",
   "quizPicture": {
     "src": "https://hackergeek.ro/storage/app/uploads/public/5e8/ce0/aa8/5e8ce0aa8a629440028347.jpg",
     "alt": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
   },
+  "badge":"React",
   "quizSynopsis": "This quiz is exposing 20 questions that go through all the key-concepts of the framework that any React developer should be familiar with. Topics: JSX, components, props, lifecycle & state, events.",
   "questions": [
     {
@@ -95,3 +96,6 @@ const reactQuiz = {
     },
   ]
 } 
+
+
+export {reactQuiz}

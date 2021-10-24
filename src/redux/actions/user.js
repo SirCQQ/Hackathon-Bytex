@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 export const user = createSlice({
   name: 'user',
   initialState: {
-    theme: "hufflepuff",
+    theme: "slytherin",
     name: "Cristi",
     badges: [],
     appliedJobs: [],
@@ -18,7 +18,7 @@ export const user = createSlice({
       state.theme = action.payload.theme_to_purchase.theme_name
     },
     addMoney: (state, action) => {
-      state.coins += action.payload.coins
+      state.coins += action.payload
     },
     changeTheme: (state, action) => {
       state.theme = action.payload
@@ -35,7 +35,7 @@ export const user = createSlice({
       })
       console.log(indexOfJob)
       if (indexOfJob !== -1) {
-        state.appliedJobs.splice(indexOfJob, 1)
+       state.appliedJobs.splice(indexOfJob, 1)
       }
     }
   },
