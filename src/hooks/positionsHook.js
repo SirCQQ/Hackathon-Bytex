@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 
 const usePositions = () => {
   const projects = useSelector(state => state.projects.projects)
-  console.log(projects)
+  // console.log(projects)
   let jobs = []
   let projectApplicants = []
 
@@ -18,7 +18,7 @@ const usePositions = () => {
       jobs = [...jobs, ...newJobs]
     }
     if (proj.applicants) {
-      projectApplicants = [...projectApplicants, proj.applicants]
+      projectApplicants = [...projectApplicants, ...proj.applicants]
     }
   })
 

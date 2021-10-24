@@ -23,9 +23,9 @@ export default function Navigation() {
       <div className='user-name'>
         {`Welcome back, ${user.name}`}
         <MonetizationOn /> {user.coins}{" "}
-        {/* <Link to='/applicants' className='no-link'>
+        <Link to='/applicants' className='no-link'>
           Applicants
-        </Link> */}
+        </Link>
       </div>
     </nav>
   );

@@ -41,12 +41,20 @@ const companyProjects = [
 				"projectId": "1"
 			}
 		],
-		"applicants": [{
+		"applicants": [
+			{
 			"userId": "1",
 			"name": "John Doe2",
 			"badges": ["React", "Javascript", "CSS"],
 			"positionId": "1",
-		}]
+		},
+			{
+			"userId": "99",
+			"name": "John Wick",
+			"badges": ["React", "Assasin", "Mercenary"],
+			"positionId": "1",
+		},
+	]
 	},
 	{
 		"id": 2,
@@ -96,10 +104,17 @@ const companyProjects = [
 				"projectId": "2"
 			}
 		],
-		"applicants": [{
+		"applicants": [
+			{
 			"userId": "5",
 			"name": "John Doe 3",
 			"badges": ["Backend"],
+			"positionId": "4",
+		},
+			{
+			"userId": "2.325",
+			"name": "Harry Potter",
+			"badges": ["Wizzard"],
 			"positionId": "4",
 		}
 		]
