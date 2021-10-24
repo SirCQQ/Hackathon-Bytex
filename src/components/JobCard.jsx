@@ -28,7 +28,6 @@ export default function JobCard(props) {
           className='job-aplication'
           onClick={() => {
             dispatch(addJobApplied(props));
-            console.log(user);
             dispatch(
               addCandidateToProject({
                 project_id: projectId,

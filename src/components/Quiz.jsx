@@ -9,12 +9,14 @@ import Answer from "./Answer";
 import {reactQuiz} from '../data/quiz-react'
 import useQuiz from '../hooks/quizhook'
 import { useSelector } from "react-redux"
+import {QUIZZES} from '../data/quizzes'
 function Quiz() {
+  const {id} =useParams()
   const user = useSelector(state=>state.user)
-  const {question,numberOfQuestions,setAnswerToQuestion,currentQuestion,result} = useQuiz(reactQuiz,addBadge,reactQuiz.badge)
+  const {question,numberOfQuestions,setAnswerToQuestion,currentQuestion,result} = useQuiz(reactQuiz,addBadge,QUIZZES[id].quizTitle)
   console.log(result)
   return (
-    <div className='quiz-page'>
+    <div className='quiz-page page'>
       <h2>{reactQuiz.quizTitle}</h2>
       {numberOfQuestions!==currentQuestion?<div className='quiz'>
         {`${currentQuestion+1}/${numberOfQuestions}`}

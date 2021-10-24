@@ -7,7 +7,7 @@ export default function Aplicants() {
   const { jobs, projectApplicants } = usePositions();
   console.log({projectApplicants})
   return (
-    <div className='hr-jobs'>
+    <div className='hr-jobs page'>
       {jobs.map((e) => {
         // console.log(e)
         return (

@@ -12,7 +12,7 @@ export default function Project() {
   });
   console.log(project);
   return (
-    <div className='project-page'>
+    <div className='project-page page'>
       <img src={project.logo.src} alt={project.logo.alt} />
       <div className='info'>
         <h2>{project.name}</h2>

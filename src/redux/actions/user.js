@@ -24,7 +24,11 @@ export const user = createSlice({
       state.theme = action.payload
     },
     addBadge: (state, action) => {
-      state.badges.push(action.payload)
+      let indexOf = state.badges.indexOf(action.payload)
+      console.log(indexOf)
+      if (indexOf === -1) {
+        state.badges.push(action.payload)
+      }
     },
     addJobApplied: (state, action) => {
       state.appliedJobs.push(action.payload)
@@ -35,7 +39,7 @@ export const user = createSlice({
       })
       console.log(indexOfJob)
       if (indexOfJob !== -1) {
-       state.appliedJobs.splice(indexOfJob, 1)
+        state.appliedJobs.splice(indexOfJob, 1)
       }
     }
   },

@@ -20,7 +20,7 @@ function HousingQuiz() {
   } = useQuiz(reactQuiz, changeTheme, HOUSES[randomIntFromInterval(0,3)].toLowerCase(),1000);
   console.log(result);
   return (
-    <div className='quiz-page'>
+    <div className='quiz-page page'>
       <h2>{reactQuiz.quizTitle}</h2>
       {numberOfQuestions !== currentQuestion ? (
         <div className='quiz'>

@@ -19,7 +19,7 @@ export default function Homepage() {
     "Hufflepuff",
     "Ravenclaw"]
   return (
-    <div className='homepage'>
+    <div className='homepage page'>
       <p className='part-title'>Harry Potter Housing Quizz</p>
       <div className='card-list'>
 
