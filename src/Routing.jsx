@@ -19,7 +19,7 @@ export default function Routing() {
         <Route path="/housing-test" component={HousingQuiz}/>
         <Route path="/project/:id" component={Project}/>
         <Route path="/quiz/:id" component={Quiz} />
-        <Route path="/aplicants" component={Aplicants} />
+        <Route path="/applicants" component={Aplicants} />
         
       </Router>
   )

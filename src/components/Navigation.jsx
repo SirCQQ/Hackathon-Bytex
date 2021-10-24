@@ -2,7 +2,7 @@ import React from "react";
 import useTheme from "../hooks/themeHook";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import {MonetizationOn} from '@mui/icons-material'
+import { MonetizationOn } from "@mui/icons-material";
 export default function Navigation() {
   const {
     palette: { primary },
@@ -19,7 +19,14 @@ export default function Navigation() {
           Company Name
         </Link>
       </div>
-      <div className='user-name'>{`Welcome back, ${user.name}`}<MonetizationOn/> {user.coins}</div>
+
+      <div className='user-name'>
+        {`Welcome back, ${user.name}`}
+        <MonetizationOn /> {user.coins}{" "}
+        {/* <Link to='/applicants' className='no-link'>
+          Applicants
+        </Link> */}
+      </div>
     </nav>
   );
 }
