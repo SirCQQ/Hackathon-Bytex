@@ -6,6 +6,7 @@ const quizCareerSelection = {
       "src": "https://www.careersingovernment.com/tools/wp-content/uploads/2015/05/IT-information-technology.jpg",
       "alt": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201707/it-career-tips-647_070517041447.jpg?size=1200:675"
     },
+    "badge": "Career",
     "questions": [
       {
         "question": "Your friends would describe you as...",
