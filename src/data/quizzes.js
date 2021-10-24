@@ -44,6 +44,24 @@ const QUIZZES = [
     },
     roles: ['Frontend', 'Backend']
   },
+  {
+    id: '6',
+    quizTitle: 'Career Selection',
+    img: {
+      src: 'https://www.careersingovernment.com/tools/wp-content/uploads/2015/05/IT-information-technology.jpg',
+      alt: ''
+    },
+    roles: ['Frontend', 'Backend', 'DevOps', 'Quality Assurance']
+  },
+  {
+    id: '7',
+    quizTitle: 'Team Selection',
+    img: {
+      src: 'https://image.shutterstock.com/image-photo/selecting-person-job-creating-successful-260nw-1208845708.jpg',
+      alt: ''
+    },
+    roles: ['Frontend', 'Backend']
+  },
 ]
 
 
