@@ -5,6 +5,7 @@ const quizTeamSelection = {
       "src": "https://image.shutterstock.com/image-photo/selecting-person-job-creating-successful-260nw-1208845708.jpg",
       "alt": "https://www.slidegeeks.com/pics/dgm/l/t/Team_Selection_Process_Ppt_PowerPoint_Presentation_Clipart_Slide_1-.jpg"
     },
+    "badge": "Team",
     "quizSynopsis": "There are many ways to prevent team selection disputes from arising and many people have an important role to play in this process:",
     "questions": [
       {

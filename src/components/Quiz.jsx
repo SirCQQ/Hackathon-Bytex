@@ -7,11 +7,20 @@ import {addBadge} from '../redux/actions/user'
 // import { useSelector, useDispatch } from "react-redux";
 import Answer from "./Answer";
 import {reactQuiz} from '../data/quiz-react'
+import {quizCareerSelection} from '..data/quiz-career-selection'
+import {quizTeamSelection} from '..data/quiz-team-selection'
 import useQuiz from '../hooks/quizhook'
 import { useSelector } from "react-redux"
 function Quiz() {
-  const user = useSelector(state=>state.user)
-  const {question,numberOfQuestions,setAnswerToQuestion,currentQuestion,result} = useQuiz(reactQuiz,addBadge,reactQuiz.badge)
+  const usqer = useSelector(state=>state.user)
+  let selectedQuiz = reactQuiz;
+  if (id == 6) {
+    selectedQuiz = quizCareerSelection;
+  }
+  if (id == 7) {
+    selectedQuiz = quizTeamSelection;
+  }
+  const {question,numberOfQuestions,setAnswerToQuestion,currentQuestion,result} = useQuiz(selectedQuiz,addBadge,reactQuiz.badge)
   console.log(result)
   return (
     <div className='quiz-page'>
